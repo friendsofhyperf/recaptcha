@@ -1,0 +1,37 @@
+{
+    "name": "friendsofhyperf/recaptcha",
+    "description": "Google recaptcha for hyperf.",
+    "type": "library",
+    "require": {
+        "google/recaptcha": "^1.2",
+        "hyperf/http-server": "^2.1",
+        "hyperf/validation": "^2.1"
+    },
+    "require-dev": {
+        "hyperf/di": "^2.0",
+        "hyperf/event": "^2.1",
+        "hyperf/framework": "^2.0",
+        "friendsofphp/php-cs-fixer": "^2.04",
+        "swoole/ide-helper": "dev-master",
+        "phpstan/phpstan": "^0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "FriendsOfHyperf\\ReCaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "hyperf": {
+            "config": "FriendsOfHyperf\\ReCaptcha\\ConfigProvider"
+        }
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "huangdijia",
+        "email": "huangdijia@gmail.com"
+    }],
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix $1",
+        "analyse": "phpstan analyse --memory-limit 300M -l 0 -c phpstan.neon ./src"
+    }
+}
