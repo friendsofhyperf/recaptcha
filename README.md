@@ -1,4 +1,4 @@
-# Yahc
+# ReCaptcha
 
 [![Latest Stable Version](https://poser.pugx.org/friendsofhyperf/recaptcha/version.png)](https://packagist.org/packages/friendsofhyperf/recaptcha)
 [![Total Downloads](https://poser.pugx.org/friendsofhyperf/recaptcha/d/total.png)](https://packagist.org/packages/friendsofhyperf/recaptcha)
